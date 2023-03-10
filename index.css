@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #333;
+  font-size: 1.2rem;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffc107;
+}
