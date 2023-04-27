@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="random.css" />
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="build.css" />
-    <title>Book List</title>
+    <link rel="stylesheet" href="dropdown.css" />
+    <title>Random Image</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -15,20 +16,14 @@
         <li><a href="./index.html">Home</a></li>
         <li><a href="./feedback.html">Feedback</a></li>
         <li><a href="./about.html">About</a></li>
-        <li><a href="./random.html">Random Image</a></li>
+        <li><a href="./build.html">Build Your List</a></li>
       </ul>
     </nav>
+    <!---->
 
-    <!-- book list -->
-    <main class="book-body">
-      <form>
-        <input type="text" placeholder="Enter book title..." />
-        <button type="submit">Add to list</button>
-      </form>
-
-      <div id="book-list"></div>
-    </main>
-
-    <script src="build.js"></script>
+    <h1>Refresh the page for another random image!</h1>
+    <div class="random-img">
+      <img src="https://picsum.photos/500" alt="Random Image" />
+    </div>
   </body>
 </html>
